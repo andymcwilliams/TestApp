@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
 
 class App extends Component {
   render() {
@@ -19,6 +20,11 @@ class App extends Component {
           >
             Learn React
           </a>
+          <DefaultButton 
+            text='See Button'
+            primary={true}
+            onClick={() => alert('hello')}/>
+
         </header>
       </div>
     );
