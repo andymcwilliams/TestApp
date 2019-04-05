@@ -2,8 +2,17 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
+import { TextField } from 'office-ui-fabric-react/lib/TextField';
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      value: "initial value"
+    }
+
+  }
+
   render() {
     return (
       <div className="App">
@@ -20,10 +29,15 @@ class App extends Component {
           >
             Learn React
           </a>
-          <DefaultButton 
+          <DefaultButton
             text='See Button'
             primary={true}
-            onClick={() => alert('hello')}/>
+            onClick={() => alert('hello')} />
+
+          <TextField
+            value={this.state.value}
+            styles={{ fieldGroup: { width: 100 } }}
+          />
 
         </header>
       </div>
