@@ -4,6 +4,7 @@ import { TextField } from '../../node_modules/office-ui-fabric-react/lib/TextFie
 import Grid from '@material-ui/core/Grid';
 import './App.css';
 import Avatar from './Avatar'
+import Clock from './Clock'
 
 class HomePage extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class HomePage extends Component {
           />
           Home page
               <Avatar />
+              <Clock />
         </header>
       </div>
     )
