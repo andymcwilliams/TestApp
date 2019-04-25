@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../resources/logo.svg';
+import logo from '../resources/new-logo.png';
 import ham from '../resources/ham.svg';
 import exit from '../resources/exit.svg';
 import scroll from '../resources/scroll.svg';
