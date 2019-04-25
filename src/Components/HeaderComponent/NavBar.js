@@ -26,34 +26,24 @@ class NavBar extends Component {
         iconProps: {
           iconName: 'Home'
         },
-        onClick: () => alert('Home button'),
-        onMouseDown: () => alert('Home button'),
+        href: '/',
         ariaLabel: 'Home'
       },
       {
-        key: 'upload',
-        name: 'Upload',
+        key: 'about',
+        name: 'About',
         iconProps: {
-          iconName: 'Upload'
+          iconName: 'About'
         },
-        href: 'https://dev.office.com/fabric',
-        ['data-automation-id']: 'uploadButton'
+        href: '/about'
       },
       {
-        key: 'share',
-        name: 'Share',
+        key: 'contact',
+        name: 'Contact',
         iconProps: {
-          iconName: 'Share'
+          iconName: 'Contact'
         },
-        onClick: () => console.log('Share')
-      },
-      {
-        key: 'download',
-        name: 'Download',
-        iconProps: {
-          iconName: 'Download'
-        },
-        onClick: () => console.log('Download')
+        href: '/contact'
       }
     ];
   };
