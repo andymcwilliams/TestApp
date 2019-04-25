@@ -6,6 +6,7 @@
     "@material-ui/core": "^3.9.3",
     "office-ui-fabric-react": "^6.164.5",
     "react": "^16.8.6",
+    "react-device-detect": "^1.6.2",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
