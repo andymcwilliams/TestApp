@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { DefaultButton } from '../../node_modules/office-ui-fabric-react/lib/Button';
-import { TextField } from '../../node_modules/office-ui-fabric-react/lib/TextField';
-import Grid from '@material-ui/core/Grid';
+import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
+import { TextField } from 'office-ui-fabric-react/lib/TextField';
 import './App.css';
 import Avatar from './Avatar'
 import Clock from './Clock'
 
-class HomePage extends Component {
+class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -28,11 +27,11 @@ class HomePage extends Component {
           />
           Home page
               <Avatar />
-              <Clock />
+          <Clock />
         </header>
       </div>
     )
   }
 }
 
-export default HomePage;
+export default Home;

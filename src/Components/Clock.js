@@ -56,9 +56,9 @@ class Clock extends React.Component {
             <div>
                 <h1>Hello, world!</h1>
                 <h2>It is {this.state.date.toLocaleTimeString()}</h2>
-                <a onClick={this.handleClick}
+                <p onClick={this.handleClick}
                 style={this.state.style}
-                >click to change colour</a>
+                >click to change colour</p>
             </div>
         )
     }
